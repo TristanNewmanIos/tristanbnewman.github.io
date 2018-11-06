@@ -1,0 +1,29 @@
+button{
+  background: white;
+  font-size: 16px;
+  float: right;
+  border:0;
+  padding: 10px;
+  color: #342109;
+  border-radius: 5px
+  cursor: pointer;
+  text-align: center;
+}
+
+.Sample{
+  border-color: black;
+  border: 2px black;
+  flex-flow: row;
+  border-radius: 10px;
+  text-align: center;
+  height: 250px;
+  width: 350px;
+  margin: auto;
+  float: left;
+  padding: 10px;
+}
+
+.Sample img {
+  height: 100%;
+  width: 100%;
+}
