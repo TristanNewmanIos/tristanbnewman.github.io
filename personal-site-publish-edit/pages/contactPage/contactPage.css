@@ -3,6 +3,7 @@
   height: 300px;
   position: relative;
   top: 100px;
+  left:-20px;
   display: flex;
   box-shadow: 0 2px 1px @ccc;
   margin: auto;
