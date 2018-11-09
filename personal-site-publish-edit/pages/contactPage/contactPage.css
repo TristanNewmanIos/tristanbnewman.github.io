@@ -1,0 +1,33 @@
+.Contacts{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  display: flex;
+  box-shadow: 0 2px 1px @ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.Contact{
+  /* margin: 16px; */
+  padding: 16px;
+  flex: auto;
+  flex-flow: row;
+  float: right;
+  height:100%;
+  width: 100%;
+}
+
+.Contact img{
+  width: 150px;
+  height:50%;
+  float: right;
+}
+
+.Contact img:hover{
+  cursor: pointer;
+  width:175px;
+  height: 60%;
+  position: flex;
+}
