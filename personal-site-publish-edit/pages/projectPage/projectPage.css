@@ -1,29 +1,52 @@
-button{
-  background: white;
-  font-size: 16px;
-  float: right;
-  border:0;
-  padding: 10px;
-  color: #342109;
-  border-radius: 5px
-  cursor: pointer;
-  text-align: center;
+
+.Samples{
+  text-align: justify;
+  justify-content: space-around;
+  display: inline-block;
+  position: static;
+  top: 10%;
+  width: 100%;
+  height: 100%;
 }
 
 .Sample{
   border-color: black;
   border: 2px black;
-  flex-flow: row;
+  float: left;
   border-radius: 10px;
   text-align: center;
   height: 250px;
   width: 350px;
-  margin: auto;
-  float: left;
   padding: 10px;
 }
 
-.Sample img {
-  height: 100%;
-  width: 100%;
+.Sample p{
+  background-image: radial-gradient( #c2c8d1, #e0dedc);
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 5px;
+  position: sticky;
+}
+
+@media (max-width: 600px){
+
+  .Samples{
+    text-align: justify;
+    justify-content: space-around;
+    display: inline-block;
+    position: static;
+    top: -75px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Samples.Sample{
+    border-color: black;
+    border: 2px black;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    width: 350px;
+    padding: 10px;
+  }
 }
