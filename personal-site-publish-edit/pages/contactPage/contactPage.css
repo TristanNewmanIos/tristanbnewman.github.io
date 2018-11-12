@@ -1,34 +1,30 @@
 .Contacts{
   width: 100%;
-  height: 300px;
-  position: relative;
-  top: 100px;
-  left:-50px;
-  display: flex;
-  box-shadow: 0 2px 1px @ccc;
-  margin: auto;
-  padding: 10px 0;
+  height: 170px;
+  top: 20%;
+  margin: none;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
 }
 
 .Contact{
-  /* margin: 16px; */
-  padding: 10px;
-  flex: auto;
-  flex-flow: row;
-  float: right;
-  height:100%;
-  width: 100%;
+  height:170px;
+  width: 170px;
+  position: sticky;
+  float: relative;
+  display: inline-flex;
 }
 
 .Contact img{
   width: 150px;
-  height:50%;
-  float: right;
+  height:150px;
+
 }
 
 .Contact img:hover{
   cursor: pointer;
   width:175px;
-  height: 60%;
+  height:175px;
   position: flex;
 }
